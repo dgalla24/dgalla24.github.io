@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ff0c4eaf24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header" id ="header">
+        <img id = "logo" src="images/danny_logo.png">
+        <nav class = "navigation">
+            <a href= "#header" class = "nav active_nav">Home</a>
+            <a href= "#about" class = "nav">About</a>
+            <a href= "#service" class = "nav">Services</a>
+            <a href= "#work" class = "nav">Portfolio</a>
+            <a href= "#contact" class = "nav">Contact</a>
+        </nav>
+    </div>
+    <div class="front_page">
+        <div class="text_content">
+            <p id ="profession">
+                Student at Duke University
+            </p>
+            <h1 id = "greeting">
+                Hi, I'm <span>Danny</span> <br> Gallagher from Maryland
+            </h1>
+        </div>
+        <img src="images/kayak.png" id= "kayak">
+    </div>
+    <div class = "about_page" id ="about">
+        <img src="images/headshot.png" id="headshot">
+        <div class = "text">
+            <h1>About Me</h1>
+            <p class = "about_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores accusamus cumque similique labore voluptatum tenetur expedita voluptate itaque quaerat amet nesciunt, optio omnis. Suscipit consequatur incidunt asperiores vel fugiat! Lorem ipsum dolor sit amet.</p>
+            <div class = "tabs">
+                <p class="tab active_link" onclick = "opentab('skills')">Skills</p>
+                <p class="tab" onclick = "opentab('experience')">Experience</p>
+                <p class="tab" onclick = "opentab('education')">Education</p>
+            </div>
+            <div class = "tab_contents">
+                <div class = "tab_content active_tab" id ="skills">
+                    <p>Skills Content</p>
+                </div>
+                <div class = "tab_content" id = "experience">
+                    <p>Experience Content</p>
+                </div>
+                <div class = "tab_content" id = "education">
+                    <p>Education Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "services_page" id = "service">
+        <div class = "empty"></div>
+        <h1>My Services</h1>
+        <div class="container">
+            <div class = "service">
+                <div class="text">
+                    <i class="fa-solid fa-code"></i>
+                    <p class = "title">Web Design</p>
+                    <p class = "description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis facere ipsam odio? Minima, pariatur maxime?</p>
+                    <a href = '#'>Learn more</a>
+                </div>
+            </div>
+            <div class = "service">
+                <div class="text">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <p class = "title">UI/UX Design</p>
+                    <p class = "description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis facere ipsam odio? Minima, pariatur maxime?</p>
+                    <a href = '#'>Learn more</a>
+                </div>
+            </div>
+            <div class = "service">
+                <div class="text">
+                    <i class="fa-brands fa-app-store"></i>
+                    <p class = "title">App Design</p>
+                    <p class = "description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis facere ipsam odio? Minima, pariatur maxime?</p>
+                    <a href = '#'>Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="work_page" id = "work">
+        <div class ="empty"></div>
+        <h1>My Work</h1>
+        <div class="container">
+            <div class="project" id = "project_1">
+                <img src="images/work-1.png">
+                <div class="text">
+                    <h3>Social Media App</h3>
+                    <div class="description">Social Media App description</div>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project" id = "project_2">
+                <img src="images/work-2.png">
+                <div class="text">
+                    <h3>Music App</h3>
+                    <div class="description">Music App description</div>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project" id = "project_3">
+                <img src="images/work-3.png">
+                <div class="text">
+                    <h3>Online Shopping App</h3>
+                    <div class="description">Online Shopping App description</div>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+    <div class="contact_page" id = "contact">
+        <div class="left">
+            <h1>Contact Me</h1>
+            <div class="email">
+                <i class="fa-solid fa-paper-plane"></i>
+                <p>dgalla24@gmail.com</p>
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="socials">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="right">
+            <input type="text" id ="name_input" placeholder= "Your Name">
+            <input type="text" id = "email_input" placeholder= "Your Email">
+            <textarea id ="message_input" placeholder="Message"></textarea>
+            <a href="#" class="btn">Submit</a>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
