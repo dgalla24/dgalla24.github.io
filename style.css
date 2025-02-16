@@ -65,7 +65,7 @@ body{
     position: absolute;
     top: 200px;
     left: 20vh;
-    font-size: 30px;
+    font-size: 1.8vw;
 }
 .text_content #profession {
     margin-bottom: 30px;
@@ -122,7 +122,7 @@ body{
 
 .about_page .tabs{
     display: flex;
-    font-size: 35px;
+    font-size: 2vw;
     justify-content: space-between;
     width: 30vw;
     margin-bottom: 20px;
@@ -183,36 +183,37 @@ body{
 .services_page .container .service{
     background-color: #222222;
     border-radius: 15px;
-    width:510px;
-    height: 410px;
+    width:25vw;
+    height: 35vh;
     transition: background 0.5s, transform 0.5s;
+    margin:10px;
 }
 
 .services_page .container .service .text{
-    padding: 40px;
+    padding: 4vh;
 }
 
 .services_page .container .service .text i{
-    font-size: 70px;
-    margin-bottom:30px;
+    font-size: 4vh;
+    margin-bottom:3vh;
 }
 
 .services_page .container .service .text .title{
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 4vh;
+    margin-bottom: 2vh;
 }
 
 .services_page .container .service .text .description{
     color: #b4b4b4;
-    font-size: 18px;
+    font-size: 1.5vh;
 }
 
 .services_page .container .service .text a{
     color: #b4b4b4;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 3vh;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.5vh;
 }
 
 .services_page .container .service:hover{
@@ -336,19 +337,19 @@ body{
 }
 
 .contact_page .left h1{
-    font-size: 80px;
+    font-size: 4vw;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
 }
 
 .email{
     display:flex;
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 .email i{
-    font-size: 30px;
+    font-size: 2vw;
     margin-right: 20px;
     color:#00539B;
 }
@@ -356,11 +357,11 @@ body{
 .phone{
     display:flex;
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 .phone i{
-    font-size: 30px;
+    font-size: 2vw;
     margin-right: 20px;
     color:#00539B;
 }
@@ -393,7 +394,7 @@ body{
 .contact_page #name_input{
     margin-top: 30px;
     background: #222222;
-    width: 950px;
+    width: 50vw;
     height: 80px;
     border-radius: 5px;
     font-size: 25px;
@@ -405,7 +406,7 @@ body{
 
 .contact_page #email_input{
     background: #222222;
-    width: 950px;
+    width: 50vw;
     height: 80px;
     border-radius: 5px;
     font-size: 25px;
@@ -417,8 +418,8 @@ body{
 
 .contact_page #message_input{
     background: #222222;
-    width: 950px;
-    height: 280px;
+    width: 50vw;
+    height: 30vh;
     border-radius: 5px;
     font-size: 25px;
     padding: 20px;
